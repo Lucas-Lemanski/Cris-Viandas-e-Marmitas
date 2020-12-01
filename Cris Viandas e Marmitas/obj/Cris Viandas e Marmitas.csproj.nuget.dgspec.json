@@ -26,7 +26,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\vitor\\source\\repos\\Cris Viandas e Marmitas\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\vitor\\source\\repos\\Cris Viandas e Marmitas\\DAL\\DAL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -37,6 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,6 +67,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\vitor\\source\\repos\\Cris Viandas e Marmitas\\DAL\\DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vitor\\source\\repos\\Cris Viandas e Marmitas\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\vitor\\source\\repos\\Cris Viandas e Marmitas\\DAL\\DAL.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
